@@ -40,7 +40,7 @@ describe 'Posts', type: 'feature' do
       @category2 = Post.last.categories.last.name
       expect(@category1).to eq('Cool')
       expect(@category2).to eq('Funny')
-    end
+     end
   end
 
   describe 'show' do
